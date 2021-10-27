@@ -24,6 +24,14 @@ func getHello(c *gin.Context) {
 	c.IndentedJSON(http.StatusOK, albums)
 }
 
+// TODO: Implement a DI container for route handlers
+// TODO: Implement an ORM
+// TODO: implement authentication
+// TODO: Implement Query Layer
+// TODO: Implement Command Layer
+// TODO: Implement GraphQL
+// TODO: Implement GRPC
+
 func main() {
 	fmt.Println("Hello, World!")
 	router := gin.Default()
